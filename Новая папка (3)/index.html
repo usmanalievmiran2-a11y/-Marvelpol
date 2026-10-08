@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Марвелпол — Паркетный пол</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="loading">
+
+<!-- LOADER -->
+
+<div class="loader" id="loader">
+
+    <div class="loader-grid"></div>
+
+    <div class="loader-center">
+
+        <small data-i18n="loaderLabel">
+            ПАРКЕТНЫЙ ПОЛ
+        </small>
+
+        <div class="loader-logo">
+            МАРВЕЛ<span>ПОЛ</span>
+        </div>
+
+        <div class="loader-line">
+            <i id="loaderBar"></i>
+        </div>
+
+        <div class="loader-meta">
+
+            <span>MARVELPOL</span>
+
+            <b id="loaderPercent">
+                00
+            </b>
+
+        </div>
+
+    </div>
+
+    <div class="loader-door left"></div>
+    <div class="loader-door right"></div>
+
+</div>
+
+
+<div class="noise"></div>
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+
+<!-- HEADER -->
+
+<header class="header" id="header">
+
+    <div class="container header-row">
+
+        <a href="#top" class="logo">
+            МАРВЕЛ<span>ПОЛ</span>
+        </a>
+
+
+        <nav class="nav">
+
+            <a
+                href="#collections"
+                data-i18n="navCollections"
+            >
+                Коллекции
+            </a>
+
+            <a
+                href="#floor"
+                data-i18n="navFloor"
+            >
+                О полу
+            </a>
+
+            <a
+                href="#advantages"
+                data-i18n="navAdvantages"
+            >
+                Преимущества
+            </a>
+
+            <a
+                href="#order"
+                data-i18n="navOrder"
+            >
+                Заказ
+            </a>
+
+        </nav>
+
+
+        <div class="tools">
+
+            <select
+                id="language"
+                aria-label="Language"
+            >
+
+                <option value="ru">
+                    RU
+                </option>
+
+                <option value="uz">
+                    UZ
+                </option>
+
+                <option value="en">
+                    EN
+                </option>
+
+                <option value="fr">
+                    FR
+                </option>
+
+                <option value="ar">
+                    AR
+                </option>
+
+            </select>
+
+
+            <button
+                class="theme"
+                id="theme"
+                aria-label="Theme"
+            >
+                ☼
+            </button>
+
+
+            <a
+                class="phone"
+                href="tel:+998909999935"
+            >
+                +998 90 999 99 35
+            </a>
+
+        </div>
+
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+        >
+
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+
+    <div
+        class="mobile-nav"
+        id="mobileNav"
+    >
+
+        <a
+            href="#collections"
+            data-i18n="navCollections"
+        >
+            Коллекции
+        </a>
+
+        <a
+            href="#floor"
+            data-i18n="navFloor"
+        >
+            О полу
+        </a>
+
+        <a
+            href="#advantages"
+            data-i18n="navAdvantages"
+        >
+            Преимущества
+        </a>
+
+        <a
+            href="#order"
+            data-i18n="navOrder"
+        >
+            Заказ
+        </a>
+
+        <button
+            class="btn gold order-open"
+            data-i18n="orderBtn"
+        >
+            Оставить заявку
+        </button>
+
+    </div>
+
+</header>
+
+
+<main id="top">
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-bg"></div>
+    <div class="hero-dark"></div>
+    <div class="hero-light"></div>
+
+
+    <div class="container hero-grid">
+
+
+        <div class="hero-copy">
+
+
+            <div class="eyebrow reveal">
+
+                <i></i>
+
+                <span data-i18n="eyebrow">
+                    МАРВЕЛПОЛ / ПАРКЕТНЫЙ ПОЛ
+                </span>
+
+            </div>
+
+
+            <h1>
+
+                <span data-i18n="hero1">
+                    Пол, который
+                </span>
+
+                <em data-i18n="hero2">
+                    сразу видно.
+                </em>
+
+            </h1>
+
+
+            <p
+                class="hero-text reveal"
+                data-i18n="heroText"
+            >
+                Паркетный пол с выразительной геометрией,
+                натуральной фактурой и глубокими оттенками дерева.
+            </p>
+
+
+            <div class="actions reveal">
+
+                <a
+                    class="btn gold magnetic"
+                    href="#collections"
+                    data-i18n="look"
+                >
+                    Смотреть пол
+                </a>
+
+                <button
+                    class="btn outline magnetic order-open"
+                    data-i18n="orderBtn"
+                >
+                    Заказать
+                </button>
+
+            </div>
+
+
+            <div class="hero-stats reveal">
+
+                <div>
+                    <b>01</b>
+                    <span data-i18n="stat1">
+                        Натуральная фактура
+                    </span>
+                </div>
+
+                <div>
+                    <b>02</b>
+                    <span data-i18n="stat2">
+                        Премиальная геометрия
+                    </span>
+                </div>
+
+                <div>
+                    <b>03</b>
+                    <span data-i18n="stat3">
+                        Подбор под площадь
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-piece reveal-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1761053133165-0f3acdaf1770?auto=format&fit=crop&w=1800&q=90"
+                alt="Parquet floor"
+            >
+
+            <div class="piece-top">
+                PARQUET / 01
+            </div>
+
+            <div class="piece-bottom">
+
+                <span>
+                    MARVELPOL
+                </span>
+
+                <b>
+                    HERRINGBONE
+                </b>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-bottom">
+
+        <span data-i18n="bottomText">
+            ДЕРЕВЯННЫЙ ПОЛ / ПАРКЕТ
+        </span>
+
+        <span>
+            +998 90 999 99 35
+        </span>
+
+        <a href="#collections">
+            SCROLL ↓
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- STATEMENT -->
+
+<section class="section statement">
+
+    <div class="container two-col">
+
+        <div class="kicker reveal">
+            01 /
+            <span data-i18n="floorLabel">
+                ПОЛ
+            </span>
+        </div>
+
+
+        <div class="statement-copy reveal">
+
+            <h2>
+
+                <span data-i18n="statement1">
+                    Не интерьер вокруг пола.
+                </span>
+
+                <br>
+
+                <em data-i18n="statement2">
+                    Сам пол — главный акцент.
+                </em>
+
+            </h2>
+
+
+            <p data-i18n="statementText">
+
+                Марвелпол показывает паркет как главный
+                материал пола: рисунок, направление планок,
+                оттенок, масштаб и фактуру.
+                В центре внимания только дерево
+                и поверхность пола.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- COLLECTIONS -->
+
+<section
+    class="section collections"
+    id="collections"
+>
+
+    <div class="container">
+
+
+        <div class="section-head">
+
+            <div class="kicker reveal">
+
+                02 /
+
+                <span data-i18n="collectionsLabel">
+                    КОЛЛЕКЦИИ ПОЛА
+                </span>
+
+            </div>
+
+
+            <div class="reveal">
+
+                <h2>
+
+                    <span data-i18n="collections1">
+                        Три рисунка.
+                    </span>
+
+                    <br>
+
+                    <em data-i18n="collections2">
+                        Один сильный материал.
+                    </em>
+
+                </h2>
+
+
+                <p data-i18n="collectionsText">
+
+                    Выберите рисунок паркета
+                    и оставьте заявку на расчёт.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="products">
+
+
+            <!-- CARD 1 -->
+
+            <article
+                class="product tilt reveal"
+                data-product="Classic Herringbone"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1770982726897-5e85ad0601c3?auto=format&fit=crop&w=1600&q=90"
+                    alt="Classic Herringbone"
+                >
+
+                <div class="product-shade"></div>
+
+
+                <div class="product-top">
+
+                    <span>01</span>
+                    <span>PARQUET</span>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <div>
+
+                        <small data-i18n="parquetFloor">
+                            ПАРКЕТНЫЙ ПОЛ
+                        </small>
+
+                        <h3>
+                            Classic Herringbone
+                        </h3>
+
+                    </div>
+
+
+                    <button class="circle order-open">
+                        ↗
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- CARD 2 -->
+
+            <article
+                class="product tilt reveal d1"
+                data-product="Warm Oak"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1737100907308-67f6b49ba15f?auto=format&fit=crop&w=1600&q=90"
+                    alt="Warm Oak"
+                >
+
+                <div class="product-shade"></div>
+
+
+                <div class="product-top">
+
+                    <span>02</span>
+                    <span>PARQUET</span>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <div>
+
+                        <small data-i18n="parquetFloor">
+                            ПАРКЕТНЫЙ ПОЛ
+                        </small>
+
+                        <h3>
+                            Warm Oak
+                        </h3>
+
+                    </div>
+
+
+                    <button class="circle order-open">
+                        ↗
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- CARD 3 -->
+
+            <article
+                class="product tilt reveal d2"
+                data-product="Natural Geometry"
+            >
+
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/58c0448a2994ca368864afd8/1604342356880-MWI7M3LJ06OZUPKU0L39/American%2BOak%2BBasket%2BWeave%2BFlooring-min.jpg?format=1000w"
+                    alt="Natural Geometry"
+                >
+
+                <div class="product-shade"></div>
+
+
+                <div class="product-top">
+
+                    <span>03</span>
+                    <span>PARQUET</span>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <div>
+
+                        <small data-i18n="parquetFloor">
+                            ПАРКЕТНЫЙ ПОЛ
+                        </small>
+
+                        <h3>
+                            Natural Geometry
+                        </h3>
+
+                    </div>
+
+
+                    <button class="circle order-open">
+                        ↗
+                    </button>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- FLOOR -->
+
+<section
+    class="section floor"
+    id="floor"
+>
+
+    <div class="container floor-grid">
+
+
+        <div class="floor-image reveal">
+
+            <img
+                src="https://cdn.myshoptet.com/usr/www.moraviafinish.cz/user/articles/images/parketov___olej_lf_%286%29.jpg"
+                alt="Close-up parquet floor"
+            >
+
+            <span>
+                DETAIL / WOOD FLOOR
+            </span>
+
+        </div>
+
+
+
+        <div class="floor-copy">
+
+
+            <div class="kicker reveal">
+
+                03 /
+
+                <span data-i18n="textureLabel">
+                    ФАКТУРА ПОЛА
+                </span>
+
+            </div>
+
+
+            <h2 class="reveal">
+
+                <span data-i18n="texture1">
+                    Рисунок планок.
+                </span>
+
+                <br>
+
+                <em data-i18n="texture2">
+                    Глубина дерева.
+                </em>
+
+            </h2>
+
+
+            <p
+                class="reveal"
+                data-i18n="textureText"
+            >
+
+                Соединение планок,
+                естественные волокна,
+                мягкие переходы оттенков
+                и отражение света —
+                именно эти детали
+                делают паркетный пол выразительным.
+
+            </p>
+
+
+            <div class="specs">
+
+
+                <div class="spec reveal">
+
+                    <b>01</b>
+
+                    <strong data-i18n="geo">
+                        Геометрия
+                    </strong>
+
+                    <small data-i18n="geoText">
+                        ёлка / модульный рисунок
+                    </small>
+
+                </div>
+
+
+                <div class="spec reveal">
+
+                    <b>02</b>
+
+                    <strong data-i18n="texture">
+                        Фактура
+                    </strong>
+
+                    <small data-i18n="textureSpec">
+                        естественный рисунок дерева
+                    </small>
+
+                </div>
+
+
+                <div class="spec reveal">
+
+                    <b>03</b>
+
+                    <strong data-i18n="tone">
+                        Оттенок
+                    </strong>
+
+                    <small data-i18n="toneText">
+                        от светлого дуба до глубокого ореха
+                    </small>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ADVANTAGES -->
+
+<section
+    class="section advantages"
+    id="advantages"
+>
+
+    <div class="container">
+
+
+        <div class="section-head">
+
+            <div class="kicker reveal">
+
+                04 /
+
+                <span data-i18n="whyLabel">
+                    ПОЧЕМУ МАРВЕЛПОЛ
+                </span>
+
+            </div>
+
+
+            <div class="reveal">
+
+                <h2>
+
+                    <span data-i18n="why1">
+                        Внимание
+                    </span>
+
+                    <br>
+
+                    <em data-i18n="why2">
+                        к самому полу.
+                    </em>
+
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="adv-grid">
+
+
+            <article class="adv reveal">
+
+                <b>01</b>
+
+                <h3 data-i18n="adv1Title">
+                    Выразительный рисунок
+                </h3>
+
+                <p data-i18n="adv1Text">
+                    Паркет становится
+                    самостоятельным
+                    визуальным элементом.
+                </p>
+
+            </article>
+
+
+            <article class="adv reveal d1">
+
+                <b>02</b>
+
+                <h3 data-i18n="adv2Title">
+                    Глубокая фактура
+                </h3>
+
+                <p data-i18n="adv2Text">
+                    Каждая планка работает
+                    на общий рисунок
+                    деревянного пола.
+                </p>
+
+            </article>
+
+
+            <article class="adv reveal d2">
+
+                <b>03</b>
+
+                <h3 data-i18n="adv3Title">
+                    Профессиональный подбор
+                </h3>
+
+                <p data-i18n="adv3Text">
+                    Можно указать площадь
+                    и выбранную коллекцию
+                    для расчёта.
+                </p>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- PROCESS -->
+
+<section class="section process">
+
+    <div class="container">
+
+
+        <div class="section-head">
+
+            <div class="kicker reveal">
+
+                05 /
+
+                <span data-i18n="processLabel">
+                    КАК ЗАКАЗАТЬ
+                </span>
+
+            </div>
+
+
+            <div class="reveal">
+
+                <h2>
+
+                    <span data-i18n="process1">
+                        Просто.
+                    </span>
+
+                    <br>
+
+                    <em data-i18n="process2">
+                        По делу.
+                    </em>
+
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="steps">
+
+
+            <div class="step reveal">
+
+                <b>01</b>
+
+                <h3 data-i18n="step1">
+                    Выбираете пол
+                </h3>
+
+                <p data-i18n="step1Text">
+                    Нажимаете «Заказать»
+                    на понравившейся коллекции.
+                </p>
+
+            </div>
+
+
+            <i></i>
+
+
+            <div class="step reveal d1">
+
+                <b>02</b>
+
+                <h3 data-i18n="step2">
+                    Заполняете заявку
+                </h3>
+
+                <p data-i18n="step2Text">
+                    Имя, телефон,
+                    площадь и комментарий.
+                </p>
+
+            </div>
+
+
+            <i></i>
+
+
+            <div class="step reveal d2">
+
+                <b>03</b>
+
+                <h3 data-i18n="step3">
+                    Связываемся
+                </h3>
+
+                <p data-i18n="step3Text">
+                    Заявка открывает WhatsApp
+                    с готовым сообщением.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ORDER -->
+
+<section
+    class="section order-section"
+    id="order"
+>
+
+    <div class="container order-panel reveal">
+
+
+        <div>
+
+            <div class="kicker">
+
+                06 /
+
+                <span data-i18n="orderLabel">
+                    ЗАКАЗ
+                </span>
+
+            </div>
+
+
+            <h2>
+
+                <span data-i18n="order1">
+                    Выберите
+                </span>
+
+                <br>
+
+                <em data-i18n="order2">
+                    свой паркетный пол.
+                </em>
+
+            </h2>
+
+
+            <p data-i18n="consult">
+                Телефон для консультации:
+            </p>
+
+
+            <a
+                class="order-phone"
+                href="tel:+998909999935"
+            >
+                +998 90 999 99 35
+            </a>
+
+        </div>
+
+
+        <button
+            class="btn gold magnetic order-open"
+            data-i18n="orderBtn"
+        >
+            Оставить заявку
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container footer">
+
+        <strong>
+            МАРВЕЛ<span>ПОЛ</span>
+        </strong>
+
+        <small data-i18n="footer">
+            Паркетный пол · Ташкент
+        </small>
+
+        <a href="tel:+998909999935">
+            +998 90 999 99 35
+        </a>
+
+    </div>
+
+</footer>
+
+
+
+<!-- ORDER MODAL -->
+
+<div
+    class="modal"
+    id="modal"
+    aria-hidden="true"
+>
+
+    <div
+        class="backdrop"
+        data-close
+    ></div>
+
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+        >
+            ×
+        </button>
+
+
+        <div class="kicker">
+            MARVELPOL / ORDER
+        </div>
+
+
+        <h2 data-i18n="modalTitle">
+            Заказать паркетный пол
+        </h2>
+
+
+        <p data-i18n="modalText">
+
+            Заполните данные.
+            После отправки откроется WhatsApp
+            с готовой заявкой.
+
+        </p>
+
+
+        <form id="orderForm">
+
+
+            <label>
+
+                <span data-i18n="name">
+                    Имя
+                </span>
+
+                <input
+                    name="name"
+                    required
+                >
+
+            </label>
+
+
+            <label>
+
+                <span data-i18n="phoneLabel">
+                    Телефон
+                </span>
+
+                <input
+                    name="phone"
+                    required
+                >
+
+            </label>
+
+
+            <label>
+
+                <span data-i18n="collectionLabel">
+                    Коллекция
+                </span>
+
+                <select
+                    name="collection"
+                    id="collection"
+                >
+
+                    <option
+                        value="Не определился"
+                        data-i18n="notSelected"
+                    >
+                        Не определился
+                    </option>
+
+                    <option value="Classic Herringbone">
+                        Classic Herringbone
+                    </option>
+
+                    <option value="Warm Oak">
+                        Warm Oak
+                    </option>
+
+                    <option value="Natural Geometry">
+                        Natural Geometry
+                    </option>
+
+                </select>
+
+            </label>
+
+
+            <label>
+
+                <span data-i18n="areaLabel">
+                    Площадь пола
+                </span>
+
+                <input name="area">
+
+            </label>
+
+
+            <label>
+
+                <span data-i18n="commentLabel">
+                    Комментарий
+                </span>
+
+                <textarea
+                    name="comment"
+                    rows="4"
+                ></textarea>
+
+            </label>
+
+
+            <button
+                class="btn gold submit"
+                type="submit"
+                data-i18n="send"
+            >
+                Отправить заявку в WhatsApp
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
